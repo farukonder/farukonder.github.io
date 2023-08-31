@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Post: Batch with AWS EMR"
-excerpt_separator: "<!--more-->"
 categories:
   - Data
 tags:
