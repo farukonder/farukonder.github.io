@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Data
+title: Batch
 ---
 
 Another sample category page.

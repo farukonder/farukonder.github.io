@@ -2,7 +2,7 @@
 layout: post
 title: "Post: Batch with AWS EMR"
 categories:
-  - Data
+  - Batch
 tags:
   - AWS
   - EMR
