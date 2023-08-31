@@ -9,7 +9,7 @@ tags:
   - Batch
 ---
 
-# Data and Streaming using Spark on EMR, ElasticSearch, Iceberg and ..
+Data and Streaming using Spark on EMR, ElasticSearch, Iceberg and ..
 
 [This is part of series of](https://farukonder.github.io/thats-enough-cloud-for-today)
 
