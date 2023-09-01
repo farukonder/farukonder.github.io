@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Batch: Batch with AWS EMR"
-last_modified_at: 2023-09-01T01:27:01-05:00
+last_modified_at: 2023-09-01T13:27:01-05:00
 categories:
   - Blog
 tags:
