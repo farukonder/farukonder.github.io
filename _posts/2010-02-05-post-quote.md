@@ -3,6 +3,7 @@ layout: post
 title: "Post: Quote"
 categories:
   - Post Formats
+  - Edge Case
 tags:
   - Post Formats
   - quote

@@ -3,6 +3,7 @@ layout: post
 title: "Post: Twitter Embed"
 categories:
   - Media
+  - Edge Case
 tags:
   - content
   - embeds

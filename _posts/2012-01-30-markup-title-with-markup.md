@@ -2,7 +2,7 @@
 layout: post
 title: "Markup: Title *with* **Markdown**"
 categories:
-  - Markup
+  - Edge Case
 tags:
   - css
   - html

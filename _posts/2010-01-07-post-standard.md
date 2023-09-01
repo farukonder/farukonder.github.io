@@ -4,6 +4,7 @@ title: "Post: Standard"
 excerpt_separator: "<!--more-->"
 categories:
   - Post Formats
+  - Edge Case
 tags:
   - Post Formats
   - readability
