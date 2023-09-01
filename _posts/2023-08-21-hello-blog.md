@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Curiosity
+title: Edge Case
 excerpt_separator:  <!--more-->
 ---
 
