@@ -2,7 +2,7 @@
 layout: post
 title: "Markup: Title *with* **Markdown**"
 categories:
-  - Markup3
+  - Batch
 tags:
   - css
   - html
