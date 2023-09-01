@@ -3,9 +3,9 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Enough Cloud
-tagline:          'Thats enough could for today'
-description:      'Personal <a href="https://farukonder.github.io/" target="_blank">blog</a>'
+title:            Thats 
+tagline:          'Personal <a href="https://farukonder.github.io/" target="_blank">blog</a>'
+description:      'Enough Cloud For Today'
 url:              https://farukonder.github.io/
 baseurl:          '/'
                   # the optional subpath of your site, e.g. "/blog"
