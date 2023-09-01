@@ -3,7 +3,7 @@ layout: post
 title: "Markup: Text Readability Test 2"
 excerpt: "A large amount of sample text to test readability of a text heavy page."
 categories:
-  - Markup
+  - Markup2
 tags:
   - sample post
   - readability
