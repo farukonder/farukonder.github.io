@@ -9,7 +9,7 @@ pre {
 }
 
 code {
-  background-color: #e8e3d7;
+  //background-color: #e8e3d7;
   border-radius: 3px;
   color: $code-color;
   font-size: 85%;
@@ -21,8 +21,7 @@ pre {
   margin-top: 0;
   max-width: 100%;
   overflow-x: auto;
-  background-color: #f3f6fa;
-  border: solid 1px #dce6f0;
+
 }
 
 pre code {
@@ -44,6 +43,8 @@ pre code {
   pre {
     margin-bottom: 0;
     overflow-x: auto;
+    background-color: #f3f6fa;
+    border: solid 1px #dce6f0;
   }
 
   .lineno {
