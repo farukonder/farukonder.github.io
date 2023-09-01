@@ -35,6 +35,8 @@ body {
 #sidebar {
   flex: 0 0 auto;
   padding: $section-spacing;
+  background-color: #159957;
+  background-image: linear-gradient(120deg, #155799, #159957);
 
   .site-title {
     font-family: 'Abril Fatface', serif;
