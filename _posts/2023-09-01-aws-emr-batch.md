@@ -32,17 +32,17 @@ first, I was considering to use Airflow. Apache Airflow is a very good solution 
 [source code from apache repo ](https://github.com/apache/airflow/blob/45548b9451fba4e48c6f0c0ba6050482c2ea2956/airflow/providers/apache/hive/transfers/hive_to_mysql.py#L99)
 ```python
 if self.bulk_load:
-            with NamedTemporaryFile() as tmp_file:
-                hive.to_csv(
-                    self.sql,
-                    tmp_file.name,
-                    delimiter="\t",
-                    lineterminator="\n",
-                    output_header=False,
-                    hive_conf=hive_conf,
-                )
-                mysql = self._call_preoperator(local_infile=self.bulk_load)
-                mysql.bulk_load(table=self.mysql_table, tmp_file=tmp_file.name)
+    with NamedTemporaryFile() as tmp_file:
+        hive.to_csv(
+            self.sql,
+            tmp_file.name,
+            delimiter="\t",
+            lineterminator="\n",
+            output_header=False,
+            hive_conf=hive_conf,
+        )
+        mysql = self._call_preoperator(local_infile=self.bulk_load)
+        mysql.bulk_load(table=self.mysql_table, tmp_file=tmp_file.name)
 ```
 if tmp folder on the machinne mounted to s3 or temp file created at s3, almost limitless size of data can be transfered with airflow without any issue.
 
