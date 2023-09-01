@@ -227,7 +227,6 @@ in case an issue during job you would check the details with describe command
 aws emr-containers describe-job-run --virtual-cluster-id cluster-id --id job-run-id
 ```
 
-
 *references*
  - [great explanation about eks security details](https://catalog.us-east-1.prod.workshops.aws/workshops/165b0729-2791-4452-8920-53b734419050/en-US/2-identity-and-access-management/irsa/enable-irsa)
  - [although its archived great great details exist](https://archive.eksworkshop.com/advanced/430_emr_on_eks/fargate_2/)

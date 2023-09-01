@@ -40,7 +40,6 @@
 
 // Make room for larger header by extending margin below title
 .index #sidebar {
-  padding-top: 13rem;
   padding-bottom: calc(#{$section-spacing} + #{$padding-v});
 }
 
