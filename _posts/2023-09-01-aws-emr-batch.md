@@ -8,6 +8,7 @@ tags:
   - AWS
   - EMR
   - Batch
+  - Iceberg
 ---
 
 Data and Streaming using Spark on EMR, ElasticSearch, Iceberg and ..
